@@ -33,7 +33,7 @@ function playRound(playerSelection, computerSelection) {
         console.log('You lost. Paper beats rock')
         return "Loss"
     } else if (computerSelection == "Scissors" && playerSelection == "Paper") {
-        console.log('You lost. Scissors beat rock')
+        console.log('You lost. Scissors beats paper')
         return "Loss"
     } else {
         console.log(`You won. ${playerSelection} beats ${computerSelection}`)
